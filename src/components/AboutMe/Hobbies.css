@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.hobbies {
+    background-color: rgb(113, 67, 6);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.hobbiesTitle{
+    color: #FAF8F1;
+    font-size: 50px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.hobbiesCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    margin: 25px;
+    padding: 50px;
+}
+.hobbiesCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAF8F1;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.hobbiesCardTitle{
+    font-size: 25px;
+    font-size: "Roboto", sans-serif;
+    color: #C58940;
+}
+
+.hobbiesIma {
+    width: 100%;
+    height: 325px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+@media   all and (max-width: 880px){
+    .hobbiesCards{
+        flex-direction: column;
+    }
+}

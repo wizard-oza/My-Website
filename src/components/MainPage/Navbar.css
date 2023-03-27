@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Lobster&family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link {
+    font-size: 20px;
+    color: rgb(232, 158, 63);
+    padding: 20px;
+    border-radius: 1px;
+    text-decoration: none;
+    border-right: 1px solid rgb(233, 138, 15);
+}
+
+.link:hover , .link:focus {
+    background-color: rgb(233, 138, 15);;
+    color: rgb(237, 202, 156);
+    transition: all 0.3s ease 0s;
+}
+
+.contanier {
+    border-bottom: 2px solid rgb(113, 67, 6);
+    background-color: #743A36;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 125px;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 8%;
+    margin-left: 3%;
+}
+
+.toggleButton {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.75rem;
+    display: none;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 50px;
+    display: block;
+    margin: 15px 0px
+}
+.logo {
+    cursor: pointer;
+    background-color: #743A36;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 200px;
+    font-weight: 400;
+    font-size: 55px;
+}
+ #toogleMenu {
+    display: none;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.contactButton {
+    color: rgb(113, 67, 6);
+    background-color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.contactButton:hover {
+    color: white;
+    background-color: rgb(113, 67, 6);
+    transition: all 0.3s ease 0s;
+    transform: scale(1.2);
+}
+
+.toggleMenu{
+    width: 100%;
+    height: 100px;
+    background-color: #743A36;
+    border-bottom: 2px solid rgb(113, 67, 6);
+}
+
+@media  all and (max-width: 980px){
+    .navLinks {
+        display: none;
+    }
+    .contactButton {
+        display: none;
+    }
+    .toggleButton {
+        display: inline-block;
+    }
+
+    #toogleMenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 120px;
+        margin-bottom: 15px;
+        background-color: #743A36;
+        border-radius: 20px;
+    }
+    .link {
+        width: 100%;
+        font-size: 24px;
+        color: rgb(232, 158, 63);
+        padding: 2px;
+        margin: 15px;
+        text-decoration: none;
+        border-radius: none;
+        border-right: none;
+    }
+    
+    .link:hover , .link:focus {
+        background-color: rgb(233, 138, 15);;
+        color: rgb(237, 202, 156);
+        transition: all 0.3s ease 0s;
+    }
+}

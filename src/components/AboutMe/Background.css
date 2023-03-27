@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.backgroundBox {
+    height: auto;
+    width: 100%;
+    background-color: #FAF8F1;
+    border-radius: 20px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.backgroundTitle {
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 65px;
+    color: rgb(113, 67, 6);
+}
+
+.backgounAdana {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+}
+.backgroundContect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.backgroundMiddleTitle {
+    font-size: 35px;
+    color:  rgb(113, 67, 6);
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.backIma {
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.backgrounPara {
+    font-size: 25px;
+    font-size: "Roboto", sans-serif;
+    
+}
+
+.backgroundHighShcool {
+    border-top: rgb(113, 67, 6) solid 2px;
+    margin-top: 20px;
+}
+
+.backgroundIstanbul {
+    margin: 15px;
+}
+
+.backgroundUniversity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media   all and (max-width: 880px){
+    .backgounAdana{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backgroundUniversity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backIma {
+        width: 70%;
+        height: 400px;
+    }
+}

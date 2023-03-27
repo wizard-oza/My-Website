@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Lobster&family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Roboto:ital,wght@1,100&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    margin: 15px 0;
+}
+.mainPicture {
+    width: 40%;
+    height: 650px;
+    border-radius: 5px;
+    margin-right: 3%;
+    border-radius: 10px;
+    position: static;
+}
+
+.paragrafSection {
+    height: 450px;
+    width: 45%;
+    padding: 40px;
+    margin: 20px; 
+    
+}
+.h4-welcome {
+    font-size: 50px;
+    color: rgb(113, 67, 6);
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+}
+
+.h1-welcome{
+    font-size: 40px;
+    color: rgb(113, 67, 6);
+    display: block;
+    font-family: "Montserrat", sans-serif;
+}
+span {
+    color: rgb(232, 158, 63);
+    font-weight: 400;
+    font-size: 40px;
+}
+.h3-wel {
+    font-size: 25px;
+    color: #A7727D;
+    font-family: "Montserrat", sans-serif;
+
+}
+.welcomePara {
+    font-size: 24px;
+    color: rgb(113, 67, 6);
+    margin-top: 5px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 200px;
+}
+.welcomeTemplate{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #FAF8F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: rgb(113, 67, 6);
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+.contact:hover {
+    color: white;
+    background-color: #A7727D;
+    transition: all 0.3s ease 0s;
+
+}
+
+@media  all and (max-width: 980px) {
+    .welcomeTemplate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .paragrafSection {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+    .welcomePara {
+        font-size: 30px;
+    }
+    .contact {
+        padding: 25px 55px;
+        font-size: 35px;
+    }
+    .mainPicture {
+        width: 80%;
+    }
+}

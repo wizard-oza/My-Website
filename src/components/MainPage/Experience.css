@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+.experience {
+    background-color: #B96A59;
+    margin-top: 20px;
+    padding: 100px 0px;
+    width: 100%;
+    border-radius: 20px;
+}
+.exp-title {
+    font-size: 65px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 20px;
+    margin-left: 55px;
+}
+
+.exp-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 15px;
+}
+
+.exp-card {
+    border-radius: 20px;
+    background-color: #743A36;
+    width: 100%;
+    padding: 50px;
+    margin: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.exp-title-com {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.exp-icon{
+    display: inline-block;
+    padding: 20px;
+    color: rgb(232, 158, 63);
+    font-size: 35px;
+}
+.company {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 50px;
+    color: rgb(232, 158, 63);
+}
+
+.time-period {
+    color: #E0A387;
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.exp-para {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.exp-list {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.exp-link{
+    color: rgb(232, 158, 63);
+    border: 0px;
+    padding: 0px;
+    transition: none;
+    font-size: 25px;
+}
+
+.exp-link:hover , .exp-link:focus {
+        background-color: #743A36;
+
+}
+
+.exp-buts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-but {
+    padding: 20px;
+    margin: 5px;
+    margin-right: 15px;
+    background-color: white;
+    color: #743A36;
+    border-radius: 20px;
+    font-size: 25px;
+}

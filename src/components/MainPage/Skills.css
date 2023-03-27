@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Manrope:wght@200&family=MonteCarlo&family=Montserrat:ital,wght@1,500&family=Roboto:ital,wght@1,100&display=swap');
+.skills {
+    width: auto;
+    padding: 100px 0px; 
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #A7727D;
+}
+
+.title h1{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: antiquewhite;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.icon-skill {
+    font-size: 50px;
+    display: block;
+    margin: 25px 0px
+}
+
+.h5-skill {
+    color: rgb(113, 67, 6);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-spa {
+    color: rgb(232, 158, 63);
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.skill-para {
+    font-size: 19px;
+    line-height: 27px;
+}
+
+@media  all and (max-width: 980px) {
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card {
+        width: 420px;
+        height: 380px;
+    }
+    .skill-spa {
+        color: rgb(232, 158, 63);
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .skill-para {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,40 @@
+.CVMain{
+    margin: 10px;
+    background-color: #FAF8F1;
+    border-radius: 20px;
+}
+
+.CVMainHeader {
+    margin: 5px;
+    margin-right: 15%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.CVButton {
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.CVicon {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.CVMainCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.CV {
+    width: 70%;
+    border: black  solid 2px;
+}
