@@ -87,3 +87,22 @@
         height: 400px;
     }
 }
+
+@media   all and (max-width: 500px) {
+    .backgounAdana{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backgroundUniversity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backIma {
+        margin-top: 15px;
+        width: 90%;
+
+        height: auto;
+    }
+}

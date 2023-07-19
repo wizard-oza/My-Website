@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import {faGithub } from '@fortawesome/free-brands-svg-icons'
 import {faTwitter } from '@fortawesome/free-brands-svg-icons'
-import {faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Navbar from '../MainPage/Navbar'
 import './Contact.css'
 

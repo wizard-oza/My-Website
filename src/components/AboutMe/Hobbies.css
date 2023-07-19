@@ -18,26 +18,55 @@
 
 .hobbiesCards{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top:50px;
     margin: 25px;
-    padding: 50px;
+    height: auto;
+    width: 100%;
 }
-.hobbiesCard{
+.hobbiesCardFashion{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: #FAF8F1;
-    padding: 25px;
-    margin: 15px;
+    width: 100%;
+    height: 2000px;
+    background-image: url(imagesAbout/Fashion.png);
     border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hobbiesCardFineArt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2000px;
+    background-image: url(imagesAbout/FineArt.png);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.hobbiesCardPool{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2000px;
+    background-image: url(imagesAbout/Pool.png);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .hobbiesCardTitle{
-    font-size: 25px;
+    font-size: 150px;
     font-size: "Roboto", sans-serif;
-    color: #C58940;
+    color: rgb(112, 115, 123);
+    margin-bottom: 15px;
 }
 
 .hobbiesIma {
@@ -47,8 +76,45 @@
     margin-bottom: 10px;
 }
 
-@media   all and (max-width: 880px){
+@media   all and (max-width: 500px){
     .hobbiesCards{
         flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+
+    .hobbiesCardFashion{
+        width: 100%;
+        height: 2000px;
+        background-image: url(imagesAbout/Fashion.png);
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .hobbiesCardFineArt{
+        width: 100%;
+        height: 2000px;
+        background-image: url(imagesAbout/FineArt.png);
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .hobbiesCardPool{
+        width: 100%;
+        height: 2000px;
+        background-image: url(imagesAbout/Pool.png);
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .hobbiesCardTitle {
+        font-size: 55px;
+        margin-top: 40%;
+        margin-left: 30%;
     }
 }

@@ -20,7 +20,7 @@ const Experience = () => {
                 <div className="exp-card">
                     <div className="exp-title-com">
                     <FontAwesomeIcon icon={faBuilding} className = 'exp-icon'/>
-                    <h1 className="company">GameGos</h1>
+                    <a href="https://www.salusspa.com/" className="exp-link"><h1 className="company">Gamegos</h1></a>
                     </div>
                     <div className="time-period">
                         <h4>06/07/2022 - 19/08/2022</h4>
@@ -45,7 +45,7 @@ const Experience = () => {
                 <div className="exp-card">
                     <div className="exp-title-com">
                     <FontAwesomeIcon icon={faSpa} className = 'exp-icon'/>
-                    <h1 className="company">Salus Spa</h1>
+                    <a href="https://www.salusspa.com/" className="exp-link"><h1 className="company">Salus Spa</h1></a>
                     </div>
                     <div className="time-period">
                         <h4 className="time">06/09/2022 - 14/01/2023</h4>

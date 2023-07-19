@@ -14,10 +14,9 @@
     margin: 15px 0;
 }
 .mainPicture {
-    width: 40%;
+    width: 35%;
     height: 650px;
     border-radius: 5px;
-    margin-right: 3%;
     border-radius: 10px;
     position: static;
 }
@@ -49,13 +48,13 @@ span {
 }
 .h3-wel {
     font-size: 25px;
-    color: #A7727D;
+    color: rgb(112, 115, 123);
     font-family: "Montserrat", sans-serif;
 
 }
 .welcomePara {
-    font-size: 24px;
-    color: rgb(113, 67, 6);
+    font-size: 25px;
+    color: black;
     margin-top: 5px;
     font-family: "Barlow", sans-serif;
     font-weight: 200px;
@@ -63,7 +62,7 @@ span {
 .welcomeTemplate{
     width: 95%;
     margin: 0 auto;
-    background-color: #FAF8F1;
+    background-color: rgb(241, 228, 214);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,7 +80,7 @@ span {
 
 .contact:hover {
     color: white;
-    background-color: #A7727D;
+    background-color: rgb(112, 115, 123);
     transition: all 0.3s ease 0s;
 
 }
@@ -111,5 +110,34 @@ span {
     }
     .mainPicture {
         width: 80%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .welcomeTemplate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mainPicture {
+        width: 100%;
+        height: auto;
+    }
+    .h1-welcome {
+        font-size: 30px;
+    }
+    span {
+        font-size: 30px;
+    }
+
+    .welcomePara {
+        font-size: 25px;
+    }
+
+    .contact {
+        margin-top: 35px;
+        padding: 15px;
+        font-size: 25px;
     }
 }

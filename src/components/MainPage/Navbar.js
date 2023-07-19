@@ -20,7 +20,7 @@ const Navbar = (props) => {
             <nav>
             <h1 className="logo">{props.title}</h1>
                 <button className='toggleButton' onClick={handdleHiddenMenu}><FontAwesomeIcon icon={faBars} className = "icon"></FontAwesomeIcon></button>
-                    <div className='navLinks' id = { !hidden ? 'toogleMenu' : ''}>
+                    <div className='navLinks'>
                     <ul>
                         <li><Link to = {props.link1_ref} className = 'link'>{props.link1_title}</Link></li>
                         <li><Link to = {props.link2_ref}  className = 'link'>{props.link2_title}</Link></li>
@@ -30,7 +30,12 @@ const Navbar = (props) => {
                     <button className="contactButton" onClick={navigateToContacts}>{props.button_name}</button>
             </nav>
         </div>
-
+        <div className='hamburgerLinks' id = { !hidden ? 'toogleMenu' : ''}>
+        <li>
+            <Link to = {props.link1_ref} className = 'hamburgerLink'>{props.link1_title}</Link></li>
+            <li><Link to = {props.link2_ref}  className = 'hamburgerLink'>{props.link2_title}</Link></li>
+            <li><Link to = {props.link3_ref}  className = 'hamburgerLink'>{props.link3_title}</Link></li>
+        </div>
      </div>
         
     );

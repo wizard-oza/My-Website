@@ -8,23 +8,23 @@
     box-sizing: border-box;
 }
 .link {
-    font-size: 20px;
-    color: rgb(232, 158, 63);
+    font-size: 25px;
+    color: rgb(241, 238, 214);
     padding: 20px;
     border-radius: 1px;
     text-decoration: none;
-    border-right: 1px solid rgb(233, 138, 15);
+    border-right: 1px solid rgb(241, 238, 214);
 }
 
 .link:hover , .link:focus {
-    background-color: rgb(233, 138, 15);;
-    color: rgb(237, 202, 156);
+    background-color: rgb(243, 214, 73);
+    color: rgb(112, 115, 123);
     transition: all 0.3s ease 0s;
 }
 
 .contanier {
-    border-bottom: 2px solid rgb(113, 67, 6);
-    background-color: #743A36;
+    border-bottom: 2px solid rgb(112, 115, 123);;
+    background-color:rgb(205, 121, 101);
     
 }
 nav{
@@ -57,12 +57,14 @@ nav{
 }
 .logo {
     cursor: pointer;
-    background-color: #743A36;
-    color: white;
+    background-color: rgb(205, 121, 101);
+    color: rgb(241, 238, 214);
     font-family: "Lobster", sans-serif;
     font-weight: 200px;
-    font-weight: 400;
     font-size: 55px;
+}
+.hamburgerLinks {
+    display: none;
 }
  #toogleMenu {
     display: none;
@@ -75,7 +77,7 @@ nav ul li {
 }
 
 .contactButton {
-    color: rgb(113, 67, 6);
+    color: rgb(112, 115, 123);
     background-color: white;
     padding: 12px;
     border-radius: 5px;
@@ -84,7 +86,7 @@ nav ul li {
 }
 .contactButton:hover {
     color: white;
-    background-color: rgb(113, 67, 6);
+    background-color: rgb(112, 115, 123);;
     transition: all 0.3s ease 0s;
     transform: scale(1.2);
 }
@@ -109,12 +111,12 @@ nav ul li {
 
     #toogleMenu {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 120px;
         margin-bottom: 15px;
-        background-color: #743A36;
+        background-color:rgb(205, 121, 101);
         border-radius: 20px;
     }
     .link {
@@ -132,5 +134,57 @@ nav ul li {
         background-color: rgb(233, 138, 15);;
         color: rgb(237, 202, 156);
         transition: all 0.3s ease 0s;
+    }
+}
+
+
+@media all and (max-width: 500px) {
+    #toogleMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+        background-color:rgb(205, 121, 101);
+        border-radius: 20px;
+    }
+    .navLinks {
+        display: none;
+    }
+    .contactButton {
+        display: none;
+    }
+    .toggleButton {
+        display: inline-block;
+    }
+    .contanier {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    .hamburgerLinks{
+        list-style-type: none;
+
+
+    }
+    .hamburgerLink {
+        background-color: rgb(205, 121, 101);
+        font-size: 35px;
+        padding: 10px;
+        padding-right: 75px;
+        padding-left: 75px;
+        margin: 5px;
+        text-decoration: none;
+        color:  rgb(241, 238, 214);
+        font-family: "Lobster", sans-serif;
     }
 }

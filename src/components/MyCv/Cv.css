@@ -18,11 +18,13 @@
     border-radius: 15px;
     font-size: 20px;
     align-items: center;
+    cursor: pointer;
 }
 
 .CVicon {
     font-size: 20px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .CVMainCont {
@@ -37,4 +39,17 @@
 .CV {
     width: 70%;
     border: black  solid 2px;
+}
+
+@media all and (max-width: 500px) {
+
+    .CVMainHeader {
+        height: auto;
+    }
+
+    .CV{
+        height: auto;
+        width: 100%;
+    }
+
 }

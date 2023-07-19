@@ -5,7 +5,7 @@
     padding: 100px 0px; 
     margin: 10px;
     border-radius: 10px;
-    background-color: #A7727D;
+    background-color: rgb(205, 121, 101);
 }
 
 .title h1{
@@ -30,7 +30,7 @@
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: antiquewhite;
+    background: rgb(241, 238, 214);
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -39,13 +39,14 @@
 }
 
 .icon-skill {
+    color: rgb(112, 115, 123);
     font-size: 50px;
     display: block;
     margin: 25px 0px
 }
 
 .h5-skill {
-    color: rgb(113, 67, 6);
+    color: rgb(112, 115, 123);
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -81,5 +82,23 @@
     .skill-para {
         font-size: 24px;
         line-height: 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 380px;
+    }
+
+    .skill-para {
+        font-size: 20px;
     }
 }
